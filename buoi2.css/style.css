@@ -1,0 +1,21 @@
+.heading {
+    color: green;
+    font-size: 50px;
+    background-color: blue;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: yellow;
+    text-align: center;
+    decoration: rtl;
+    width: 500px;
+    height: 300px;
+    line-height: 300px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    word-spacing: -20px;
+    text-shadow: 5px 5px 5px red;
+}
+p{
+    color: red;
+}
