@@ -1,6 +1,6 @@
 .heading {
     color: green;
-    font-size: 50px;
+    font-size: 35px;
     background-color: blue;
     border-width: 10px;
     border-style: dashed;
@@ -14,8 +14,11 @@
     text-transform: uppercase;
     letter-spacing: 16px;
     word-spacing: -20px;
-    text-shadow: 5px 5px 5px red;
+    text-shadow: 5px 5px 5px rgb(35, 4, 4);
 }
 p{
     color: red;
+}
+h1{
+    color: tomato !important;
 }
