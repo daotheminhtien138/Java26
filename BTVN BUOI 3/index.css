@@ -23,6 +23,7 @@ img {
     height: 433px;
     box-shadow:#000000 0px 0px 7px 0px;
     margin-bottom: 18px;
+    border-radius: 30px;
 }
 .product-note {
     margin-top: 2px;
