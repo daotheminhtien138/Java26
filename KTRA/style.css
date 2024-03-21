@@ -245,6 +245,8 @@ p{
     border-radius: 6px;
     margin-bottom: 10px;
     border: 1px solid #ced1df;
+    display: flex;
+    justify-content: space-around;
 }
 .name-2{
     width: 115px;
@@ -259,6 +261,8 @@ p{
     margin-left: 10px;
     margin-bottom: 10px;
     border: 1px solid #ced1df;
+    display: flex;
+    justify-content: space-around;
 }
 .name-3{
     width: 143px;
@@ -266,6 +270,8 @@ p{
     background-color: #eeeff1;
     display: inline-block;
     font-weight: 500;
+    display: flex;
+    justify-content: space-around;
     line-height: 29px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -281,6 +287,8 @@ p{
     display: inline-block;
     font-weight: 500;
     line-height: 29px;
+    display: flex;
+    justify-content: space-around;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 6px;
@@ -291,6 +299,8 @@ p{
 .name-5{
     width: 118px;
     height: 41px;
+    display: flex;
+    justify-content: space-around;
     background-color: #eeeff1;
     display: inline-block;
     font-weight: 500;
@@ -312,6 +322,8 @@ p{
     text-transform: uppercase;
     border-radius: 6px;
     margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 10px;
     border: 1px solid #ced1df;
 }
@@ -324,6 +336,8 @@ p{
     line-height: 29px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
     border-radius: 6px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -337,6 +351,8 @@ p{
     font-weight: 500;
     line-height: 29px;
     letter-spacing: 1px;
+    display: flex;
+    justify-content: space-around;
     text-transform: uppercase;
     border-radius: 6px;
     margin-right: 10px;
@@ -348,6 +364,8 @@ p{
     height: 41px;
     background-color: #eeeff1;
     display: inline-block;
+    display: flex;
+    justify-content: space-around;
     font-weight: 500;
     line-height: 29px;
     letter-spacing: 1px;
@@ -363,6 +381,8 @@ p{
     background-color: #eeeff1;
     display: inline-block;
     font-weight: 500;
+    display: flex;
+    justify-content: space-around;
     line-height: 29px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -378,6 +398,8 @@ p{
     display: inline-block;
     font-weight: 500;
     line-height: 29px;
+    display: flex;
+    justify-content: space-around;
     letter-spacing: 1px;
     text-transform: uppercase;
     border: 1px solid #ced1df;
@@ -391,6 +413,8 @@ p{
     background-color: #eeeff1;
     display: inline-block;
     font-weight: 500;
+    display: flex;
+    justify-content: space-around;
     line-height: 29px;
     letter-spacing: 1px;
     border: 1px solid #ced1df;
@@ -496,7 +520,8 @@ p{
     margin-bottom: 95px;
     margin-left: 59px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 79px;
 }
 .form{
     width: 502px;
@@ -512,7 +537,9 @@ p{
     line-height: 28px;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 16px;
 }
+
 .name{
     width: 236px;
     height: 103px;
@@ -533,10 +560,11 @@ p{
     width: 236px;
     height: 60px;
     background-color: #ffffff;
-    color: #333333;
     line-height: 26px;
     font-family: Poppins;
     font-size: 15px;
+    border: 1px #e4e4e4;
+    border-radius: 8px;
 }
 .label-2{
     width: 236px;
@@ -561,6 +589,8 @@ p{
     line-height: 26px;
     font-family: Poppins;
     font-size: 15px;
+    border: 1px #e4e4e4;
+    border-radius: 8px;
 }
 .Message{
     width: 502px;
@@ -584,7 +614,9 @@ p{
     color: #333333;
     line-height: 26px;
     font-family: Poppins;
-    font-size: 15px;
+    font-size: 15px;border: 1px #e4e4e4;
+    border-radius: 8px;
+    display: flex;
 }
 .submit{
     width: 104px;
@@ -599,6 +631,7 @@ p{
     justify-content: center;
     line-height: 20px;
     text-align: center;
+    margin-left: 16px;
 }
 .het{
     color: #ffffff;
@@ -702,25 +735,27 @@ p{
     margin-left: 156px;
 }
 .social{
-    width: 112px;
-    height: 54px;
+    width: 54px;
+    height: 112px;
     display: flex;
     flex-direction: column;
     line-height: 28px;
     color: #1a1b1f;
     position: fixed;
-
+    top: auto;
+    right: 0;
+    bottom: 0;
 }
 .social-1{
     width: 24px;
-    height: 20px;
+    height: 41px;
     line-height: 28px;
     color: #32343a;  
-    margin-bottom: 20px;
 }
 .social-2{
     width: 24px;
-    height: 20px;
+    height: 41px;
     line-height: 28px;
     color: #32343a;  
+    
 }
