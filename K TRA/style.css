@@ -115,6 +115,9 @@ img{
     display: flex;
     margin-left: 0;
 }
+.view-work:hover{
+    background-color: #333537;
+}
 .header-2-1{
     width: 1413px;
     height: 489px;
@@ -494,6 +497,7 @@ p{
     height: 525px;
     line-height: 28px;
     color: #1a1b1f;
+    margin-top: 106px;
 }
 .five-1{
     height: 523px;
@@ -501,7 +505,6 @@ p{
     line-height: 28px;
     background-color: #eeeff1;
     color: #1a1b1f;
-    margin-top: 121px;
     display: flex;
     align-items: center;
     border-radius: 14px;
@@ -633,6 +636,9 @@ p{
     text-align: center;
     margin-left: 16px;
 }
+.submit:hover{
+    background-color: #333537;
+}
 .het{
     color: #ffffff;
     margin-top: 10px;
@@ -647,6 +653,7 @@ p{
     font-family: Poppins;
     display: flex;
     margin-top: 121px;
+    margin-bottom: 0;
 }
 .container{
     width: 1140px;
@@ -733,6 +740,12 @@ p{
     display: flex;
     justify-content: center;
     margin-left: 156px;
+}
+.ab{
+    width: 1140px;
+    height: 26px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 .social{
     width: 54px;
